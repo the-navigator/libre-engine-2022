@@ -1,0 +1,12 @@
+D:\libre\Libre-Engine-2022\LibreEngine\bin\Debug\net6.0\LibreEngine.deps.json
+D:\libre\Libre-Engine-2022\LibreEngine\bin\Debug\net6.0\LibreEngine.dll
+D:\libre\Libre-Engine-2022\LibreEngine\bin\Debug\net6.0\LibreEngine.pdb
+D:\libre\Libre-Engine-2022\LibreEngine\obj\Debug\net6.0\LibreEngine.csproj.AssemblyReference.cache
+D:\libre\Libre-Engine-2022\LibreEngine\obj\Debug\net6.0\LibreEngine.GeneratedMSBuildEditorConfig.editorconfig
+D:\libre\Libre-Engine-2022\LibreEngine\obj\Debug\net6.0\LibreEngine.AssemblyInfoInputs.cache
+D:\libre\Libre-Engine-2022\LibreEngine\obj\Debug\net6.0\LibreEngine.AssemblyInfo.cs
+D:\libre\Libre-Engine-2022\LibreEngine\obj\Debug\net6.0\LibreEngine.csproj.CoreCompileInputs.cache
+D:\libre\Libre-Engine-2022\LibreEngine\obj\Debug\net6.0\LibreEngine.dll
+D:\libre\Libre-Engine-2022\LibreEngine\obj\Debug\net6.0\refint\LibreEngine.dll
+D:\libre\Libre-Engine-2022\LibreEngine\obj\Debug\net6.0\LibreEngine.pdb
+D:\libre\Libre-Engine-2022\LibreEngine\obj\Debug\net6.0\ref\LibreEngine.dll
