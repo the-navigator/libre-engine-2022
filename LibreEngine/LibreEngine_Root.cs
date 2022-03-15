@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-// using System.Data.SQLite;
+using System.Data.SQLite;
+
+
 using System.Data;  
 
 
@@ -14,6 +16,7 @@ public class LibreEngine
     static string  connectionString = "DataSource=" +
      Environment.CurrentDirectory + "\\" + databaseName; 
 // Setting up some variables for the Datbase Connection
+    
     SQLiteConnection databaseCn = new SQLiteConnection(connectionString);
     SQLiteCommand databaseCommand = new SQLiteCommand();
     SQLiteDataAdapter libreDataAdapter = new SQLiteDataAdapter();
@@ -24,13 +27,13 @@ public class LibreEngine
      string tableSource = "ResourceDB";
         
     
-    public static void locateDatabase (string CurrentLocation)
+    public void locateDatabase (string CurrentLocation)
     {
 
-       databaseConnection.Open();   
+       databaseCn.Open();   
        libreDataAdapter = new SQLiteDataAdapter("SELECT * FROM [ResourceDB]", databaseCn);
 
-       libeDataAdapter.Fill(libreDataTable);
+       libreDataAdapter.Fill(libreDataTable);
        rowcount = libreDataTable.Rows.Count;
        databaseCn.Close();
 

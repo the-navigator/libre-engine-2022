@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\libre\\Libre-Engine-2022\\LibreEngine\\LibreEngine.csproj": {}
+    "D:\\LIBRE\\LIBRE\\c\\LibreEngine\\LibreEngine.csproj": {}
   },
   "projects": {
-    "D:\\libre\\Libre-Engine-2022\\LibreEngine\\LibreEngine.csproj": {
+    "D:\\LIBRE\\LIBRE\\c\\LibreEngine\\LibreEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\libre\\Libre-Engine-2022\\LibreEngine\\LibreEngine.csproj",
+        "projectUniqueName": "D:\\LIBRE\\LIBRE\\c\\LibreEngine\\LibreEngine.csproj",
         "projectName": "LibreEngine",
-        "projectPath": "D:\\libre\\Libre-Engine-2022\\LibreEngine\\LibreEngine.csproj",
-        "packagesPath": "C:\\Users\\Teacher\\.nuget\\packages\\",
-        "outputPath": "D:\\libre\\Libre-Engine-2022\\LibreEngine\\obj\\",
+        "projectPath": "D:\\LIBRE\\LIBRE\\c\\LibreEngine\\LibreEngine.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\LIBRE\\LIBRE\\c\\LibreEngine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Teacher\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +39,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "SQLitePCLRaw.lib.e_sqlite3": {
+              "target": "Package",
+              "version": "[2.1.0-pre20220207221914, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.115.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -52,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

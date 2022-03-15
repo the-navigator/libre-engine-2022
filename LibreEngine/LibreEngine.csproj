@@ -1,9 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
+  <ItemGroup>
+    <PackageReference Include="SQLitePCLRaw.lib.e_sqlite3" Version="2.1.0-pre20220207221914"/>
+    <PackageReference Include="SQLite" Version="3.13.0"/>
+    <PackageReference Include="System.Data.SQLite" Version="1.0.115.5"/>
+  </ItemGroup>
 </Project>
